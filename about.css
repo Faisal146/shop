@@ -1,0 +1,90 @@
+.home {
+    background: linear-gradient(rgba(0, 0, 0, 0.716), rgba(0, 0, 0, 0.696)),
+      url(img/selectslead-1.jpg) no-repeat;
+    background-size: cover;
+  
+    padding: 110px 0px;
+  
+    color: white;
+  }
+  .home .contants {
+    width: 430px;
+  }
+  .home .contants h1 {
+    font-size: 36px;
+    margin-bottom: 14px;
+  }
+  .home .contants p {
+  }
+  .about .left {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about .left .image {
+    height: 220px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 16px;
+  }
+  
+  .image1 {
+    background: url(img/808c068cc98fccf8a9559f71f0d97eaf.jpg_200x200q80.jpg_.webp);
+    width: 262px !important;
+  }
+  .image2 {
+    background: url(img/parkangaoga.webp);
+    width: 183px !important;
+  }
+  .image3 {
+    background: url(img/denimleather.webp);
+  }
+  .image4 {
+      background: url(img/012.webp);
+      width: 248px !important;
+      }
+  .about .right {
+    width: 50%;
+  }
+  .about .right h1 {
+    margin-bottom: 11px;
+  }
+  .about .right p {
+    color: #565656;
+  }
+  .about .right .analyse {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+  }
+  .about .right .analyse .list {
+    width: 134px;
+  }
+  .about .right .analyse .list h2 {
+    font-size: 31px;
+  }
+  .about .right .analyse .list p {
+  }
+  .about {
+    padding: 40px 0;
+  }
+  .ourStory {
+    /* margin: auto; */
+    display: flex; /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 58px 0;
+    background: #ededed;
+  }
+  .ourStory h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .ourStory p {
+    width: 880px;
+    text-align: justify;
+  }
+  

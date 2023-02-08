@@ -1,0 +1,159 @@
+a {
+  /* text-decoration: none; */
+  /* display: inline-block; */
+}
+.shopHome {
+  background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.57)),
+    url("img/blog_1.jpg.webp") center
+    center / cover no-repeat;
+  text-align: center;
+  padding: 60px 0px;
+  color: white;
+}
+.shopHome .title {
+}
+.shopHome .AvailItems {
+  margin-top: 17px;
+}
+.AvailItems ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+.container {
+  align-items: flex-start;
+}
+.AvailItems ul li a {
+  display: inline-block;
+  margin: 0px 30px;
+  color: white !important;
+}
+.AvailItems ul li a .item {
+}
+.AvailItems ul li a .item i {
+}
+.AvailItems ul li a .item .texts {
+}
+.AvailItems ul li a .item .texts h3 {
+}
+.AvailItems ul li a .item .texts p {
+}
+.filter {
+  width: 300px;
+  flex: 1 1 291px;
+  padding: 26px 21px;
+}
+.filter h1 {
+  font-size: 20px;
+  padding: 22px 0px;
+}
+.filter .shopCategories {
+  list-style: none;
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+}
+.filter .shopCategories li {
+  padding: 3px 0px;
+}
+.filter .shopCategories li a {
+  display: flex;
+  justify-content: space-between;
+}
+.filter .shopCategories li span:first-child {
+}
+.filter .shopCategories li span:last-child {
+  border: 1px solid black;
+  padding: 2px 8px;
+  font-size: 15px;
+  border-radius: 12px;
+}
+.filter .priceFilter {
+}
+.filter .priceFilter h1 {
+}
+.filter .priceFilter .priceProgress {
+}
+.filter .priceFilter .priceProgress inp {
+}
+ 
+.filter .priceFilter .texts {
+}
+.filter .priceFilter .texts .price {
+}
+.filter .priceFilter .texts .price span {
+}
+.filter  .filterBtn {
+  background: orange;
+  padding: 3px 9px;
+  display: inline-block;
+  margin: 9px 0px;
+  border-radius: 9px;
+}
+input[type="range"] {
+  width: 100%;
+}
+.filter .colorfilter{border-top: 2px solid #706f6f;margin-top: 20px;padding-top: 20px;}
+.filter .colorfilter .colors h3{
+    font-size: 21px;
+}
+.filter .colorfilter .colorCon{
+  display: flex;
+  gap: 10px;
+  padding: 13px 0px;
+  }
+.filter .colorfilter .colorCon .color{
+   height: 20px;
+   width: 20px;
+   background-color: hotpink;
+   /* margin: 8px; */
+   border-radius: 50%;
+   }
+
+.AllItems {
+  width: 1120px;
+}
+.shopNavigations {
+  display: flex;
+  padding: 22px 0px;
+}
+.shopNavigations .location {
+  flex: 1 1 0%;
+}
+.shopNavigations .location a {
+}
+.shopNavigations .show {
+  display: flex;
+  gap: 17px;
+}
+.shopNavigations .show .view {
+}
+.shopNavigations .show .view ul {
+  list-style: none;
+  display: flex;
+}
+.shopNavigations .show .view ul li {
+  padding: 0 10px;
+}
+.shopNavigations .show .sort {
+}
+.shopNavigations .show .sort select {
+  width: 140px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.shopNavigations .show .sort select option {
+}
+.shopCards {
+  padding-left: 16px;
+}
+.shopCards .products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.shopCards .products .card {
+  width: 300px;
+  background: antiquewhite;
+  border-radius: 10px;
+  overflow: hidden;
+}

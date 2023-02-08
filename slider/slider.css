@@ -1,0 +1,121 @@
+@font-face {
+  font-family: popins;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: popins;
+}
+
+.container-slide {
+  width: 100vw;
+  margin: auto;
+  overflow: hidden;
+}
+.slides {
+  display: flex;
+  /* width: 100vw; */
+}
+.slide {
+  width: 100vw !important;
+  height: calc(100vh - 100px);
+ 
+  /* text-align: center; */
+  flex: 0 0 100vw;
+  padding-left: 125px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+}
+.slide span {
+  font-size: 34px;
+  font-family: cursive;
+}
+
+.container-slide .slide1{
+  background: linear-gradient(
+    132deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.08)
+  ),
+  url("https://t4.ftcdn.net/jpg/02/36/99/95/360_F_236999550_uYQE4PN3BM49PHeGCuemUG7BqttTTknD.jpg")
+    right center / cover no-repeat;
+}
+
+.container-slide .slide2{
+  background: linear-gradient(
+    132deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.08)
+  ),
+  url("../img/twice-all-member-slider-scaled.webp")
+    right center / cover no-repeat;
+}
+
+.container-slide .slide3{
+  background: linear-gradient(
+    132deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.08)
+  ),
+  url("../img/fashion-logo.jpeg")
+    right center / cover no-repeat;
+}
+
+.container-slide .slide4{
+  background: linear-gradient(
+    132deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.08)
+  ),
+  url("../img/wp8443543.jpg")
+    right center / cover no-repeat;
+}
+
+
+
+@keyframes slideFade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;  
+  }
+}
+
+
+
+.home p {
+  padding: 25px 0px;
+  width: 460px;
+}
+.home h1 {
+  font-size: 58px;
+  margin-top: 10px;
+}
+.home button.btn {
+  padding: 9px 24px;
+  font-size: 16px;
+  background: orange;
+  border: 2px solid lightblue;
+  border-radius: 34px;
+  display: inline-block;
+  width: 199px;
+}
+.home .buttons{
+
+}
+.home button{
+
+}
+.home #next{
+
+}
+.home #previous{
+  
+}
