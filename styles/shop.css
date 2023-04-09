@@ -4,7 +4,7 @@ a {
 }
 .shopHome {
   background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.57)),
-    url("img/blog_1.jpg.webp") center
+    url("../img/blog_1.jpg.webp") center
     center / cover no-repeat;
   text-align: center;
   padding: 60px 0px;

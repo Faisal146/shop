@@ -1,6 +1,6 @@
 .home {
     background: linear-gradient(rgba(0, 0, 0, 0.716), rgba(0, 0, 0, 0.696)),
-      url(img/selectslead-1.jpg) no-repeat;
+      url(../img/selectslead-1.jpg) no-repeat;
     background-size: cover;
   
     padding: 110px 0px;
@@ -32,18 +32,18 @@
   }
   
   .image1 {
-    background: url(img/808c068cc98fccf8a9559f71f0d97eaf.jpg_200x200q80.jpg_.webp);
+    background: url(../img/808c068cc98fccf8a9559f71f0d97eaf.jpg_200x200q80.jpg_.webp);
     width: 262px !important;
   }
   .image2 {
-    background: url(img/parkangaoga.webp);
+    background: url(../img/parkangaoga.webp);
     width: 183px !important;
   }
   .image3 {
-    background: url(img/denimleather.webp);
+    background: url(../img/denimleather.webp);
   }
   .image4 {
-      background: url(img/012.webp);
+      background: url(../img/012.webp);
       width: 248px !important;
       }
   .about .right {

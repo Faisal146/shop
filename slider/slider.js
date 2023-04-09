@@ -10,7 +10,7 @@ var played
 const size = slides[0].clientWidth;
 
 slide.style.transform = "translateX(" + -size * counter + "px)";
-console.log(slide);
+// console.log(slide);
 
 nextBtn.addEventListener("click", function () {
   if (counter >= slides.length - 1) return;
@@ -19,7 +19,7 @@ nextBtn.addEventListener("click", function () {
   current++;
   played = current - 1;
 
-  console.log(current -1 + 'is played')
+  // console.log(current -1 + 'is played')
   slide.style.transform = "translateX(" + -size * counter + "px)";
    opacityControl()
 
@@ -33,7 +33,7 @@ prevBtn.addEventListener("click", function () {
   counter--;
   current--;
   played = current + 1;
-  console.log(current + 1 + 'is played')
+  // console.log(current + 1 + 'is played')
   slide.style.transform = "translateX(" + -size * counter + "px)";
    opacityControl()
 
@@ -48,7 +48,7 @@ slide.addEventListener("transitionend", () => {
     current = 4;
   } else {
   }
-  console.log(current + " is playing");
+  // console.log(current + " is playing");
 
   if(current == 1){
     sliding1.play(0);

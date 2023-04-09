@@ -1,9 +1,17 @@
+.home{
+background:linear-gradient(rgba(0, 0, 0, 0.348),rgba(0, 0, 0, 0.335)), url(../img/54b70a3e9d1d216b7d8042aeea2dcaad-2354011393.jpg);
+background-repeat: no-repeat;
+background-position: right center;
+background-size: cover;
+color: black;}
+
 
 .contact {
-    background-color: rgb(255 255 255);
+   
     color: black;
     position: relative;
     padding: 56px 0;
+
   }
   
    .title{
@@ -19,15 +27,19 @@ text-align: center;}
     margin-top: 27px;
   }
   .contact .contact-content .text {
-    font-size: 20px;
+    font-size: 27px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
     border-bottom: 2px solid green;
-    width: 136px;
+    width: 350px;
     padding-bottom: 10px;
   }
   .contact .contact-content .left p {
     text-align: justify;
+  }
+  .contact .contact-content .left img {
+     width: 540px;
+     margin-left: 20px;
   }
   .contact .contact-content .left .icons {
     margin: 10px 0px;
@@ -72,9 +84,12 @@ text-align: center;}
   .contact .right form .textarea textarea {
     height: 100%;
     width: 100%;
+    padding: 0 13px;
+    border-radius: 16px;
     outline: none;
+    border: 2px solid #d0d0d0;
     font-size: 17px;
-    font-family: "Delius Swash Caps";
+    /* font-family: "Delius Swash Caps"; */
   }
   .contact .right form .field input:focus,
   .contact .right form .textarea textarea:focus {
@@ -95,13 +110,16 @@ text-align: center;}
     width: 200px !important;
     border-radius: 9px;
     border: 2px solid rgb(173, 231, 14);
-    font-family: "Ubuntu";
-    margin-top: 0;
+    /* font-family: "Ubuntu"; */
+    /* margin-top: 0; */
     margin-right: 50px;
+    background: orange;
+    padding: 8px 0px;
   }
   
   .contact-social {
-    margin: 10px auto auto;
+    margin: 71px auto auto;
+    text-align: center;
   }
   .contact-social a {
     color: #240094 !important;

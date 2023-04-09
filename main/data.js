@@ -1,3 +1,4 @@
+console.log('shop page loaded')
 let all = [
     {
         slno : 1,
@@ -10,31 +11,32 @@ let all = [
         rated : 30,
         size : ['s', 'm' , 'l'],
         brand : "John Wills",
-        color : ["black","green","red"],
+        color : ["black","purple","red"],
         description : [
             "Perfect to wear on Travels and vacations",
             "Stay away from getting cold",
             "enjoy the winter"
         ],
         stock : 100,
-        categories : ["men" , "top" , "Winter", "black", "new arrivals"],
+        categories : ["men" , "top" , "Winter", "black"],
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
         images : {
-            black: 
-        }
+            black: [ ],
+        },
+        feature: "new",
     },
     {
         slno : 2,
         id : 'blueCheckerdShirt',
         name : "Blue Abstract Checkered Set",
-        price : "900TK" ,
+        price : 900 ,
         prePrice : "",
         discount : "",
         rating : "",
         rated : "",
         brand : "new chiron",
         color : ["blue"],
-        size:  ['s', 'm' , 'l'],
+        size:  ['m' , 'l'],
         description : [
             "Perfect for catching up with the girls",
             "Short sleeves",
@@ -43,7 +45,10 @@ let all = [
         stock : 100,
         categories : ["women" , "top" , "blue", "new arrivals" , "featured"],
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
+        images : {
+            black: [],
+        },
+        feature: "best",
     },
     {
         slno : 3,
@@ -56,6 +61,7 @@ let all = [
         rated : "",
         brand : "adidus",
         color : [],
+        size:  ['s', 'm'  ],
         description : [
             "Wear this with a black pants.",
             "Perfect for casual mall dates",
@@ -67,8 +73,9 @@ let all = [
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
         
         images : {
-            blue :
-        }
+          
+        },
+        feature: "top",
     },
     {
         slno :4 ,
@@ -79,7 +86,7 @@ let all = [
         discount : 8,
         rating : "",
         rated : "",
-        brand : "",
+        brand : "nike",
         color : [],
         description : [
             "Can be worn as an inner or outerwear",
@@ -90,7 +97,8 @@ let all = [
         stock : 40,
         categories : ["men" , "top" , "shirt", "black", "new arrivals"],
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
+        images : [],
+        feature: "new",
     },
     {
         slno : 5,
@@ -103,6 +111,7 @@ let all = [
         rated : '',
         brand : 'jeans',
         color : ["black","green"],
+        size:  ['s', 'm' , 'l'],
         description : [
             "Perfect to wear on Travels and vacations",
             "Stay away from getting cold",
@@ -110,8 +119,9 @@ let all = [
         ],
         stock : 100,
         categories : ["men" , "top" , "shirt", "black", "new arrivals"],
-        tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
+        tags : ["#mens", "#shirt" ,"#cort" , "#Casual"],
+        images : [],
+        feature: "top",
     },
     // {
     //     slno : 7,
@@ -144,28 +154,31 @@ let all = [
         discount :'',
         rating : '',
         rated : '',
-        brand : '',
-        color : [ ],
+        brand : ' easy',
+        color : [ "gray" ],
+        size:  ['s', 'm' , 'l'],
         description : [
             "Perfect to wear on Travels and vacations",
             
         ],
         stock : 30,
         categories : ["men" , "top" , "shirt", "black", "new arrivals"],
-        tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
+        tags : ["#mens", "#shirt" ,"#gray" , "#Casual"],
+        images : [],
+        feature: "best",
     },
     {
         slno : 7,
-        id : ' “Born Free” Print Sweatshirt',
-        name :" “Born Free” Print Sweatshirt" ,
+        id : ' “BornFreePrintSweatshirt',
+        name :" Born Free Print Sweatshirt" ,
         price : 700,
         prePrice : 670,
         discount : 3,
         rating : '',
         rated : '',
-        brand : '',
+        brand : 'eyline',
         color : ["black","gray"],
+        size:  ['s',   'l'],
         description : [
             "Can be worn with any comfy pant",
             "Perfect for staycations",
@@ -174,49 +187,151 @@ let all = [
         stock : 30,
         categories : ["men" , "top" , "shirt", "black", "new arrivals"],
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
+        feature: "best",
+        images : [],
     },
     {
-        slno : ,
-        id : '',
-        name : ,
-        price : ,
-        prePrice : ,
-        discount :,
-        rating : ,
-        rated : ,
-        brand : ,
-        color : ["black","green","red"],
+        slno : 8 ,
+        id : 'WhiteHollowKnittedHoodedJacket',
+        name : "White Hollow Knitted Hooded Jacket",
+        price : 2900,
+        prePrice : 2980,
+        discount : 4,
+        rating : "",
+        rated : "",
+        brand :"chener" ,
+        color : [ "red"],
+        size:  [  'l'],
         description : [
-            "Perfect to wear on Travels and vacations",
+            "Can be worn as a cover-up",
+            "Adjustable rim",
+            "Zipper fastening"
+        ],
+        stock : 800,
+        categories : ["men" , "top" , "shirt", "black", "new arrivals" , "Hodie"],
+        tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
+        images : [],
+        feature: "best",
+    },
+    {
+        slno : 9,
+        id : 'Navy Blue Collared Sweater With Geometric Details | Yoo Deok Hwa',
+        name : "Navy Blue Collared Sweater With Geometric Details | Yoo Deok Hwa" ,
+        price : 1900,
+        prePrice : 2100,
+        discount : 10,
+        rating : "",
+        rated : "",
+        brand : " holo",
+        color : ["black","green","red"],
+         size:  ['s', 'm' ],
+        description : [
+            "Wear this with black trousers.",
+            "Perfect for café dates",
+            "Great for smart-casual looks",
+            "long sleeves"
+        ],
+        stock : 10,
+        categories : ["men" , "top" , "shirt", "black", "best seller"],
+        tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
+        images : [],
+        feature: "new"
+    },
+    {
+        slno : "10",
+        id : 'Brown Plaid Scarf',
+        name : "Brown Plaid Scarf" ,
+        price : 700 ,
+        prePrice : 500,
+        discount : 6,
+        rating : "",
+        rated : "",
+        brand : "gramms",
+        color : ["white"],
+        size :    [  'l'],
+        description : [
+            "Wear it with a winter coat.",
             "Stay away from getting cold",
-            "enjoy the winter"
+            "Customizable style"
         ],
         stock : 100,
         categories : ["men" , "top" , "shirt", "black", "new arrivals"],
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
+        images : [],
+        url :"https://www.fashionchingu.com/kdrama-fashion/brown-plaid-scarf-hong-seol-cheese-in-the-trap/",
+        feature: "top",
     },
     {
-        slno : "",
-        id : '',
-        name : "" ,
-        price : "" ,
+        slno : 11,
+        id : 'Black Varsity Jacket',
+        name : "Black Varsity Jacket" ,
+        price : 3000 ,
         prePrice : "",
         discount : "",
         rating : "",
         rated : "",
-        brand : "",
-        color : ["black","green","red"],
+        brand : "nick",
+         size:  ['s', 'm' , 'l'],
+        color : ["black" ],
         description : [
-            "Perfect to wear on Travels and vacations",
-            "Stay away from getting cold",
+            "Wear this with an oversized t-shirt and jeans for a comfy look.",
+            "Perfect for chilly afternoon walks",
             "enjoy the winter"
         ],
-        stock : 100,
+        stock : 40,
         categories : ["men" , "top" , "shirt", "black", "new arrivals"],
+        tags : ["#mens", "#shirt" ,"#jacket" , "#winter"],
+        images : [],
+        feature: "top",
+    },
+    {
+        slno : 12,
+        id : 'Dark Green Short Sleeves Polo Shirt ',
+        name : "Dark Green Short Sleeves Polo Shirt " ,
+        price : 3200 ,
+        prePrice : 3600,
+        discount : 13,
+        rating : "",
+        rated : "",
+        brand : "addidus",
+        color : ["black","green","red"],
+        description : [
+            "Classic and casual",
+            "Great paired with dark-toned pants",
+            "Perfect for everyday errands"
+        ],
+        stock : 50,
+        categories : ["men" , "top" , "polo", "black", "new arrivals"],
+        tags : ["#mens", "#classsic" ,"#black" , "#Casual"],
+        images : [],
+        url :"https://www.fashionchingu.com/kdrama-fashion/our-beloved-summer-fashion/dark-green-short-sleeves-polo-shirt-kim-ji-woong-our-beloved-summer/",
+        feature: "new",
+    },
+    {
+        slno : 13,
+        id : 'Navy Green Bomber Jacket',
+        name : "Navy Green Bomber Jacket" ,
+        price : 1200 ,
+        prePrice : 1500,
+        discount : 12,
+        rating : "",
+        rated : "",
+        brand : "light",
+         size:  ['s', 'm' , 'l'],
+        color : ["green"],
+        description : [
+            "Street style",
+            "Zip-front fastening",
+            "Functional pocket",
+            "Long sleeves",
+            "relaxed fit"
+        ],
+        stock : 130,
+        categories : ["men" , "top" , "jacket", "green", "new arrivals"],
         tags : ["#mens", "#shirt" ,"#black" , "#Casual"],
-        images : []
-    }
+        images : [],
+        feature: "top",
 
+    } 
+    
 ]
